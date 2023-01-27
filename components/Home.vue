@@ -61,14 +61,14 @@
                       <li> 
                         <NuxtLink to="/services/web-dev">
                           <a href="/services/web-dev" class="flex px-4 py-3 hover:bg-violet-50">
-                            Software development
+                            System development
                           </a>
                         </NuxtLink>
                       </li>
                       <li>
                         <NuxtLink to="/services/web-design">
                           <a href="/services/web-design" class="flex px-4 py-3 hover:bg-violet-50">
-                            Web Design
+                            Web Design & Development
                           </a>
                         </NuxtLink>
                       </li>
@@ -76,6 +76,20 @@
                         <NuxtLink to="/services/technical-support">
                           <a href="/services/technical-support" class="flex px-4 py-3 hover:bg-violet-50">
                             Technical / IT Support
+                          </a>
+                        </NuxtLink>
+                      </li>
+                      <li>
+                        <NuxtLink to="/services/web-design">
+                          <a href="/services/web-design" class="flex px-4 py-3 hover:bg-violet-50">
+                            Consultancy
+                          </a>
+                        </NuxtLink>
+                      </li>
+                      <li>
+                        <NuxtLink to="/services/web-design">
+                          <a href="/services/web-design" class="flex px-4 py-3 hover:bg-violet-50">
+                            Warehouse Design
                           </a>
                         </NuxtLink>
                       </li>
