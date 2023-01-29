@@ -3459,7 +3459,7 @@ nuxi@3.1.1:
   optionalDependencies:
     fsevents "~2.3.2"
 
-nuxt@^3.1.0:
+nuxt@^3.1.1:
   version "3.1.1"
   resolved "https://registry.npmjs.org/nuxt/-/nuxt-3.1.1.tgz"
   integrity sha512-GVdmV88lR01OX0slxTPyTzwQkge7fxNREkx2QW0Lo66fb6aHcJlRXzFMBCOTjas+Ncng6AalIyIiPREEteGKSg==
