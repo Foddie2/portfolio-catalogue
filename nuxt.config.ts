@@ -14,14 +14,6 @@ export default defineNuxtConfig({
         },
       },
 
-
-      
-      plugins: [
-        { src: '~/plugins/vuex-persist', ssr: false }
-      ]
-
-      
-      
       
       
 
