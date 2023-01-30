@@ -1,7 +1,6 @@
 <template>
     <Navbar/>
-    <!-- <Header/> -->
-    <!-- <Home/> -->
+    <Header/>
 </template>
 
 <script>
