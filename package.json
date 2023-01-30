@@ -25,6 +25,7 @@
     "@fortawesome/free-solid-svg-icons": "^6.2.1",
     "@fortawesome/vue-fontawesome": "^3.0.3",
     "flowbite": "^1.6.3",
-    "mdb-vue-ui-kit": "^3.2.0"
+    "mdb-vue-ui-kit": "^3.2.0",
+    "vuex-persist": "^3.1.3"
   }
 }

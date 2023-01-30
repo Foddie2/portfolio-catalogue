@@ -6,12 +6,21 @@ export default defineNuxtConfig({
     build: {
       transpile: ["mdb-vue-ui-kit"],
     },
+    
     postcss: {
         plugins: {
           tailwindcss: {},
           autoprefixer: {},
         },
       },
+
+
+      
+      plugins: [
+        { src: '~/plugins/vuex-persist', ssr: false }
+      ]
+
+      
       
       
       
