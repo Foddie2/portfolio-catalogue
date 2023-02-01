@@ -19,7 +19,7 @@
           </svg>
           <span class="relative">The</span>
         </span>
-        quick, brown fox jumps over a lazy dog
+        WHAT OUR EXPERIENCE AND KNOWHOW CAN DO FOR YOU AND YOUR BUSINESS
       </h2>
       <p class="text-base text-gray-700 md:text-lg">
         Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque rem aperiam, eaque ipsa quae.
