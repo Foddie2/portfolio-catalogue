@@ -86,7 +86,6 @@
                   </ul>
             </li>
             <NuxtLink to="/Contact">
-
             <li class="text-gray-500 hover:text-indigo-400">Contact Us</li>
             </NuxtLink>
           </ul>

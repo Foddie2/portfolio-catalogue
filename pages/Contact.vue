@@ -1,5 +1,6 @@
 <template>
     <div>
+        <Navbar/>
         contuct us page 
 
     </div>
