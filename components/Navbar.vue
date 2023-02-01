@@ -39,7 +39,9 @@
               md:flex md:space-y-0 md:flex-row md:items-center md:space-x-10 md:mt-0
             "
           >
+          <NuxtLink to="/About">
             <li class="text-gray-500 hover:text-indigo-400">About Us</li>
+          </NuxtLink>
             <li class="relative parent text-gray-500 hover:text-indigo-400">
               <a href="#" class="flex justify-between md:inline-flex p-4 items-center space-x-2">
                 <span>Our Services</span>
@@ -83,7 +85,10 @@
                       </li>
                   </ul>
             </li>
+            <NuxtLink to="/Contact">
+
             <li class="text-gray-500 hover:text-indigo-400">Contact Us</li>
+            </NuxtLink>
           </ul>
         </nav>
     <!-- Navbar -->
