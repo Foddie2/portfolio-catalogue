@@ -1,5 +1,6 @@
 <template>
     <div>
+        <Navbar/>
         warehouse design page 
 
     </div>

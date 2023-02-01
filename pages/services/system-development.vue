@@ -1,5 +1,6 @@
 <template>
     <div>
+        <Navbar/>
         System development page
 
     </div>

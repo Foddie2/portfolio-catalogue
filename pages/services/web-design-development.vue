@@ -1,5 +1,6 @@
 <template>
     <div>
+        <Navbar/>
         weeb design and dev page
 
     </div>
