@@ -1,4 +1,5 @@
 <template>
+  <ClientOnly>
   <section class="inset-0 object-cover w-full h-full">
     
 
@@ -8,9 +9,11 @@
     fade
   />
 </section>
+</ClientOnly>
 </template>
 
 <script setup lang="ts">
+
   import { ref } from "vue";
   import { MDBCarousel } from "mdb-vue-ui-kit";
 
