@@ -1,6 +1,5 @@
 <template>
     <Navbar/>
-    <!-- <AppHeader/> -->
     <Header/>
 </template>
 

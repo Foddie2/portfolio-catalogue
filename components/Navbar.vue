@@ -1,5 +1,5 @@
 <template>
-<header>
+<!-- <header> -->
     <!-- Navbar -->
     <nav class="container px-6 pt-3 mx-auto md:flex md:justify-between md:items-center fixed z-20">
           <div class="flex items-center justify-between">
@@ -91,7 +91,7 @@
           </ul>
         </nav>
     <!-- Navbar -->
-</header>
+<!-- </header> -->
   </template>
   <script>
   import { ref } from 'vue';

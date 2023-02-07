@@ -1,6 +1,6 @@
 <template>
   <ClientOnly>
-  <section class="inset-0 object-cover w-full h-full">
+  <div class="inset-0 object-cover w-full h-full">
     
 
   <MDBCarousel
@@ -8,7 +8,7 @@
     :items="items1"
     fade
   />
-</section>
+</div>
 </ClientOnly>
 </template>
 
