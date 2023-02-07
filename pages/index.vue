@@ -1,6 +1,6 @@
 <template>
-    <!-- <Navbar/> -->
-    <AppHeader/>
+    <Navbar/>
+    <!-- <AppHeader/> -->
     <Header/>
 </template>
 

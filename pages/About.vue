@@ -6,7 +6,12 @@
       <h2 class="max-w-lg mb-6 font-sans text-3xl font-bold leading-none tracking-tight text-gray-900 sm:text-4xl md:mx-auto uppercase">
         What our <span class="text-purple-600"> experience</span> and knowhow can do to you and to your business
       </h2>
+
+      <p class="text-base text-gray-700 md:text-lg">
+        XXX provides Advanced Engineering Services based on over 7 years of technical expertise in Technical support, System design and Software Engineering. XXX utilizes best practices and engineering techniques to design, conduct computer based simulations, and performs laboratory and field based environmental testing to ensure every solution meets or surpasses their primary objectives.
+    </p>  
     </div>
+    
     <div class="grid max-w-screen-lg gap-8 row-gap-10 mx-auto lg:grid-cols-2">
       <div class="flex flex-col max-w-md sm:mx-auto sm:flex-row">
         <div class="mr-4">
@@ -69,7 +74,7 @@
         <div>
           <h6 class="mb-3 text-xl font-bold leading-5">We innovate </h6>
           <p class="mb-3 text-sm text-gray-900">
-            UTS fully understands today’s fast pace of business and how quickly technology can change.  With this in mind, our ‘design forward’ techniques help to ‘future proof’ solutions we provide to our clientele. ‘Future proofing’ solutions we build today allows those solutions to be more easily modified ‘down the road’ to meet future business needs.
+            We fully understands today’s fast pace of business and how quickly technology can change.  With this in mind, our ‘design forward’ techniques help to ‘future proof’ solutions we provide to our clientele. ‘Future proofing’ solutions we build today allows those solutions to be more easily modified ‘down the road’ to meet future business needs.
 
             Innovation at UTS is evidenced by our numerous issued patents, and patents pending, in the field of electric / hybrid electric energy and storage systems, as well as other related technology areas. When you work with UTS, your solutions will also have the latest technological advances integrated as well.          </p>
           <a href="/" aria-label="" class="inline-flex items-center font-semibold transition-colors duration-200 text-deep-purple-accent-400 hover:text-deep-purple-800">Learn more</a>
