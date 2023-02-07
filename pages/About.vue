@@ -8,7 +8,7 @@
       </h2>
 
       <p class="text-base text-gray-700 md:text-lg">
-        XXX provides Advanced Engineering Services based on over 7 years of technical expertise in Technical support, System design and Software Engineering. XXX utilizes best practices and engineering techniques to design, conduct computer based simulations, and performs laboratory and field based environmental testing to ensure every solution meets or surpasses their primary objectives.
+        XXX provides Advanced Engineering Services based on over 7 years of technical expertise in System design, Software Engineering, Technical support and IT consulting services. XXX utilizes best practices and engineering techniques to design, conduct computer based simulations, and performs laboratory and field based environmental testing to ensure every solution meets or surpasses their primary objectives.
     </p>  
     </div>
     
