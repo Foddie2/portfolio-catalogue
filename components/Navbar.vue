@@ -1,7 +1,7 @@
 <template>
 <header>
     <!-- Navbar -->
-    <nav class="container px-6 pt-3 mx-auto md:flex md:justify-between md:items-center">
+    <nav class="container px-6 pt-3 mx-auto md:flex md:justify-between md:items-center fixed z-20">
           <div class="flex items-center justify-between">
             <router-link to="/">
             <svg xmlns="http://www.w3.org/2000/svg" class="w-10 h-10 text-purple-600" viewBox="0 0 24 24">

@@ -1,193 +1,146 @@
 <template>
-    <div>
-        <nav
-  class="relative w-full flex flex-wrap items-center justify-between py-3 bg-gray-900 text-gray-200 shadow-lg navbar navbar-expand-lg navbar-light"
->
-  <div class="container-fluid w-full flex flex-wrap items-center justify-between px-6">
-    <button
-      class="navbar-toggler text-gray-200 border-0 hover:shadow-none hover:no-underline py-2 px-2.5 bg-transparent focus:outline-none focus:ring-0 focus:shadow-none focus:no-underline"
-      type="button"
-      data-bs-toggle="collapse"
-      data-bs-target="#navbarSupportedContent1"
-      aria-controls="navbarSupportedContent"
-      aria-expanded="false"
-      aria-label="Toggle navigation"
-    >
-      <svg
-        aria-hidden="true"
-        focusable="false"
-        data-prefix="fas"
-        data-icon="bars"
-        class="w-6"
-        role="img"
-        xmlns="http://www.w3.org/2000/svg"
-        viewBox="0 0 448 512"
-      >
-        <path
-          fill="currentColor"
-          d="M16 132h416c8.837 0 16-7.163 16-16V76c0-8.837-7.163-16-16-16H16C7.163 60 0 67.163 0 76v40c0 8.837 7.163 16 16 16zm0 160h416c8.837 0 16-7.163 16-16v-40c0-8.837-7.163-16-16-16H16c-8.837 0-16 7.163-16 16v40c0 8.837 7.163 16 16 16zm0 160h416c8.837 0 16-7.163 16-16v-40c0-8.837-7.163-16-16-16H16c-8.837 0-16 7.163-16 16v40c0 8.837 7.163 16 16 16z"
-        ></path>
-      </svg>
-    </button>
-    <div class="collapse navbar-collapse flex-grow items-center" id="navbarSupportedContent1">
-      <a class="text-xl text-white pr-2 font-semibold" href="#">Navbar</a>
-      <!-- Left links -->
-      <ul class="navbar-nav flex flex-col pl-0 list-style-none mr-auto">
-        <li class="nav-item p-2">
-          <a class="nav-link text-white" href="#">Dashboard</a>
-        </li>
-        <li class="nav-item p-2">
-          <a
-            class="nav-link text-white opacity-60 hover:opacity-80 focus:opacity-80 p-0"
-            href="#"
-            >Team</a
-          >
-        </li>
-        <li class="nav-item p-2">
-          <a
-            class="nav-link text-white opacity-60 hover:opacity-80 focus:opacity-80 p-0"
-            href="#"
-            >Projects</a
-          >
-        </li>
-      </ul>
-      <!-- Left links -->
-    </div>
-    <!-- Collapsible wrapper -->
 
-    <!-- Right elements -->
-    <div class="flex items-center relative">
-      <!-- Icon -->
-      <a class="text-white opacity-60 hover:opacity-80 focus:opacity-80 mr-4" href="#">
-        <svg
-          aria-hidden="true"
-          focusable="false"
-          data-prefix="fas"
-          data-icon="shopping-cart"
-          class="w-4"
-          role="img"
-          xmlns="http://www.w3.org/2000/svg"
-          viewBox="0 0 576 512"
-        >
-          <path
-            fill="currentColor"
-            d="M528.12 301.319l47.273-208C578.806 78.301 567.391 64 551.99 64H159.208l-9.166-44.81C147.758 8.021 137.93 0 126.529 0H24C10.745 0 0 10.745 0 24v16c0 13.255 10.745 24 24 24h69.883l70.248 343.435C147.325 417.1 136 435.222 136 456c0 30.928 25.072 56 56 56s56-25.072 56-56c0-15.674-6.447-29.835-16.824-40h209.647C430.447 426.165 424 440.326 424 456c0 30.928 25.072 56 56 56s56-25.072 56-56c0-22.172-12.888-41.332-31.579-50.405l5.517-24.276c3.413-15.018-8.002-29.319-23.403-29.319H218.117l-6.545-32h293.145c11.206 0 20.92-7.754 23.403-18.681z"
-          ></path>
-        </svg>
-      </a>
-      <div class="dropdown relative">
-        <a
-          class="text-white opacity-60 hover:opacity-80 focus:opacity-80 mr-4 dropdown-toggle hidden-arrow flex items-center"
-          href="#"
-          id="dropdownMenuButton1"
-          role="button"
-          data-bs-toggle="dropdown"
-          aria-expanded="false"
-        >
-          <svg
-            aria-hidden="true"
-            focusable="false"
-            data-prefix="fas"
-            data-icon="bell"
-            class="w-4"
-            role="img"
-            xmlns="http://www.w3.org/2000/svg"
-            viewBox="0 0 448 512"
+    <!-- Navbar -->
+    <nav class="container px-6 pt-3 mx-auto md:flex md:justify-between md:items-center fixed z-20">
+          <div class="flex items-center justify-between">
+            <router-link to="/">
+            <svg xmlns="http://www.w3.org/2000/svg" class="w-10 h-10 text-purple-600" viewBox="0 0 24 24">
+            <path fill="currentColor" d="M14.5,16 C14.2238576,16 14,15.7761424 14,15.5 L14,9.5 C14,9.22385763 14.2238576,9 14.5,9 L16,9 C17.1045695,9 18,9.8954305 18,11 C18,11.4116588 17.8756286,11.7942691 17.6624114,12.1123052 C18.4414283,12.3856578 19,13.1275982 19,14 C19,15.1045695 18.1045695,16 17,16 L14.5,16 Z M15,15 L17,15 C17.5522847,15 18,14.5522847 18,14 C18,13.4477153 17.5522847,13 17,13 L15,13 L15,15 Z M15,12 L16,12 C16.5522847,12 17,11.5522847 17,11 C17,10.4477153 16.5522847,10 16,10 L15,10 L15,12 Z M12.9499909,4 L19.5,4 C20.8807119,4 22,5.11928813 22,6.5 L22,19.5 C22,20.8807119 20.8807119,22 19.5,22 L13.5,22 C12.2700325,22 11.2475211,21.1117749 11.0389093,19.9417682 C10.8653433,19.9799013 10.6850188,20 10.5,20 L4.5,20 C3.11928813,20 2,18.8807119 2,17.5 L2,4.5 C2,3.11928813 3.11928813,2 4.5,2 L10.5,2 C11.709479,2 12.7183558,2.85887984 12.9499909,4 Z M13,5 L13,17.5 C13,18.3179089 12.6072234,19.0440799 12,19.5001831 C12.0000989,20.3285261 12.6716339,21 13.5,21 L19.5,21 C20.3284271,21 21,20.3284271 21,19.5 L21,6.5 C21,5.67157288 20.3284271,5 19.5,5 L13,5 Z M8.56005566,11.4964303 C8.54036595,11.4987873 8.52032459,11.5 8.5,11.5 L6.5,11.5 C6.47967541,11.5 6.45963405,11.4987873 6.43994434,11.4964303 L5.96423835,12.6856953 C5.86168164,12.9420871 5.57069642,13.066795 5.31430466,12.9642383 C5.0579129,12.8616816 4.93320495,12.5706964 5.03576165,12.3143047 L7.03576165,7.31430466 C7.20339081,6.89523178 7.79660919,6.89523178 7.96423835,7.31430466 L9.96423835,12.3143047 C10.066795,12.5706964 9.9420871,12.8616816 9.68569534,12.9642383 C9.42930358,13.066795 9.13831836,12.9420871 9.03576165,12.6856953 L8.56005566,11.4964303 Z M8.16148352,10.5 L7.5,8.8462912 L6.83851648,10.5 L8.16148352,10.5 Z M10.5,3 L4.5,3 C3.67157288,3 3,3.67157288 3,4.5 L3,17.5 C3,18.3284271 3.67157288,19 4.5,19 L10.5,19 C11.3284271,19 12,18.3284271 12,17.5 L12,4.5 C12,3.67157288 11.3284271,3 10.5,3 Z M6.5,18 C6.22385763,18 6,17.7761424 6,17.5 C6,17.2238576 6.22385763,17 6.5,17 L8.5,17 C8.77614237,17 9,17.2238576 9,17.5 C9,17.7761424 8.77614237,18 8.5,18 L6.5,18 Z M15.5,20 C15.2238576,20 15,19.7761424 15,19.5 C15,19.2238576 15.2238576,19 15.5,19 L17.5,19 C17.7761424,19 18,19.2238576 18,19.5 C18,19.7761424 17.7761424,20 17.5,20 L15.5,20 Z"/>
+            </svg>
+            </router-link>
+
+            <!-- Mobile menu button -->
+            <div @click="toggleNav" class="flex md:hidden">
+              <button
+                type="button"
+                class="
+                  text-gray-500
+                  hover:text-gray-400
+                  focus:outline-none focus:text-gray-400
+                "
+              >
+                <svg viewBox="0 0 24 24" class="w-6 h-6 fill-current">
+                  <path
+                    fill-rule="evenodd"
+                    d="M4 5h16a1 1 0 0 1 0 2H4a1 1 0 1 1 0-2zm0 6h16a1 1 0 0 1 0 2H4a1 1 0 0 1 0-2zm0 6h16a1 1 0 0 1 0 2H4a1 1 0 0 1 0-2z"
+                  ></path>
+                </svg>
+              </button>
+            </div>
+          </div>
+    
+          <!-- Mobile Menu open: "block", Menu closed: "hidden" -->
+          <ul
+            :class="showMenu ? 'flex' : 'hidden'"
+            class="
+              flex-col
+              mt-8
+              space-y-4
+              md:flex md:space-y-0 md:flex-row md:items-center md:space-x-10 md:mt-0
+            "
           >
-            <path
-              fill="currentColor"
-              d="M224 512c35.32 0 63.97-28.65 63.97-64H160.03c0 35.35 28.65 64 63.97 64zm215.39-149.71c-19.32-20.76-55.47-51.99-55.47-154.29 0-77.7-54.48-139.9-127.94-155.16V32c0-17.67-14.32-32-31.98-32s-31.98 14.33-31.98 32v20.84C118.56 68.1 64.08 130.3 64.08 208c0 102.3-36.15 133.53-55.47 154.29-6 6.45-8.66 14.16-8.61 21.71.11 16.4 12.98 32 32.1 32h383.8c19.12 0 32-15.6 32.1-32 .05-7.55-2.61-15.27-8.61-21.71z"
-            ></path>
-          </svg>
-          <span
-            class="text-white bg-red-700 absolute rounded-full text-xs -mt-2.5 ml-2 py-0 px-1.5"
-            >1</span
-          >
-        </a>
-        <ul
-          class="dropdown-menu min-w-max absolute hidden bg-white text-base z-50 float-left py-2 list-none text-left rounded-lg shadow-lg mt-1 m-0 bg-clip-padding border-none left-auto right-0"
-          aria-labelledby="dropdownMenuButton1"
-        >
-          <li>
-            <a
-              class="dropdown-item text-sm py-2 px-4 font-normal block w-full whitespace-nowrap bg-transparent text-gray-700 hover:bg-gray-100"
-              href="#"
-              >Action</a
-            >
-          </li>
-          <li>
-            <a
-              class="dropdown-item text-sm py-2 px-4 font-normal block w-full whitespace-nowrap bg-transparent text-gray-700 hover:bg-gray-100"
-              href="#"
-              >Another action</a
-            >
-          </li>
-          <li>
-            <a
-              class="dropdown-item text-sm py-2 px-4 font-normal block w-full whitespace-nowrap bg-transparent text-gray-700 hover:bg-gray-100"
-              href="#"
-              >Something else here</a
-            >
-          </li>
-        </ul>
-      </div>
-      <div class="dropdown relative">
-        <a
-          class="dropdown-toggle flex items-center hidden-arrow"
-          href="#"
-          id="dropdownMenuButton2"
-          role="button"
-          data-bs-toggle="dropdown"
-          aria-expanded="false"
-        >
-          <img
-            src="https://mdbootstrap.com/img/new/avatars/2.jpg"
-            class="rounded-full"
-            style="height: 25px; width: 25px"
-            alt=""
-            loading="lazy"
-          />
-        </a>
-        <ul
-          class="dropdown-menu min-w-max absolute hidden bg-white text-base z-50 float-left py-2 list-none text-left rounded-lg shadow-lg mt-1 m-0 bg-clip-padding border-none left-auto right-0"
-          aria-labelledby="dropdownMenuButton2"
-        >
-          <li>
-            <a
-              class="dropdown-item text-sm py-2 px-4 font-normal block w-full whitespace-nowrap bg-transparent text-gray-700 hover:bg-gray-100"
-              href="#"
-              >Action</a
-            >
-          </li>
-          <li>
-            <a
-              class="dropdown-item text-sm py-2 px-4 font-normal block w-full whitespace-nowrap bg-transparent text-gray-700 hover:bg-gray-100"
-              href="#"
-              >Another action</a
-            >
-          </li>
-          <li>
-            <a
-              class="dropdown-item text-sm py-2 px-4 font-normal block w-full whitespace-nowrap bg-transparent text-gray-700 hover:bg-gray-100"
-              href="#"
-              >Something else here</a
-            >
-          </li>
-        </ul>
-      </div>
-    </div>
-    <!-- Right elements -->
-  </div>
-</nav>
-    </div>
+          <NuxtLink to="/About">
+            <li class="text-gray-500 hover:text-indigo-400">About Us</li>
+          </NuxtLink>
+            <li class="relative parent text-gray-500 hover:text-indigo-400">
+              <a href="#" class="flex justify-between md:inline-flex p-4 items-center space-x-2">
+                <span>Our Services</span>
+                    <svg xmlns="http://www.w3.org/2000/svg" class="w-4 h-4 fill-current pt-1" viewBox="0 0 24 24"><path d="M0 7.33l2.829-2.83 9.175 9.339 9.167-9.339 2.829 2.83-11.996 12.17z"/></svg>
+                  </a>
+                    <ul class="child transition duration-300 md:absolute top-full right-0 md:w-52 bg-white md:shadow-lg md:rounded-b ">
+                      <li> 
+                        <NuxtLink to="/services/system-development">
+                          <a href="" class="flex px-4 py-3 hover:bg-violet-50">
+                            System development
+                          </a>
+                        </NuxtLink>
+                      </li>
+                      <li>
+                        <NuxtLink to="/services/web-design-development">
+                          <a href="" class="flex px-4 py-3 hover:bg-violet-50">
+                            Web Design & Development
+                          </a>
+                        </NuxtLink>
+                      </li>
+                      <li>
+                        <NuxtLink to="/services/technical-IT-Support">
+                          <a href="" class="flex px-4 py-3 hover:bg-violet-50">
+                            Technical / IT Support
+                          </a>
+                        </NuxtLink>
+                      </li>
+                      <li>
+                        <NuxtLink to="/services/consultancy">
+                          <a href="" class="flex px-4 py-3 hover:bg-violet-50">
+                            Consultancy
+                          </a>
+                        </NuxtLink>
+                      </li>
+                      <li>
+                        <NuxtLink to="/services/warehouse-design">
+                          <a href="" class="flex px-4 py-3 hover:bg-violet-50">
+                            Warehouse Design
+                          </a>
+                        </NuxtLink>
+                      </li>
+                  </ul>
+            </li>
+            <NuxtLink to="/Contact">
+            <li class="text-gray-500 hover:text-indigo-400">Contact Us</li>
+            </NuxtLink>
+          </ul>
+        </nav>
+    <!-- Navbar -->
 </template>
 
 <script>
-    export default {
-        
-    }
+import { ref } from 'vue';
+export default {
+  setup() {
+    let showMenu = ref(false);
+    const toggleNav = () => (showMenu.value = !showMenu.value);
+    return { showMenu, toggleNav };
+  },
+};
 </script>
 
 <style lang="scss" scoped>
+
+@media only screen and (min-width: 768px) {
+  .parent:hover .child {
+    opacity: 1;
+    height: auto;
+    overflow: none;
+    transform: translateY(0);
+  }
+
+  .child {
+    position: absolute;
+    z-index: 2;
+    opacity: 0;
+    height: 0;
+    overflow: hidden;
+    transform: translateY(-10%);
+  }
+}
+
+.link-underline {
+  border-bottom-width: 0;
+  background-image: linear-gradient(transparent, transparent), linear-gradient(#fff, #fff);
+  background-size: 0 3px;
+  background-position: 0 100%;
+  background-repeat: no-repeat;
+  transition: background-size .5s ease-in-out;
+}
+
+.link-underline-black {
+  background-image: linear-gradient(transparent, transparent), linear-gradient(rgb(166, 210, 228), rgb(185, 34, 255))
+}
+
+.link-underline:hover {
+ background-size: 100% 3px;
+ background-position: 0 100%
+}
+
 
 </style>
